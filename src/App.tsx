@@ -8,6 +8,7 @@ import { DashboardPage } from './pages/DashboardPage';
 import { ReceiptsPage } from './pages/ReceiptsPage';
 import { AnalyticsPage } from './pages/AnalyticsPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { PitchDownloaderPage } from './pages/PitchDownloaderPage';
 import { Receipt, ReceiptCategory } from './types';
 
 function AppContent() {
@@ -86,6 +87,8 @@ function AppContent() {
         return <AnalyticsPage />;
       case 'settings':
         return <SettingsPage />;
+      case 'pitch-downloader':
+        return <PitchDownloaderPage />;
       default:
         if (currentView.startsWith('category-')) {
           return (

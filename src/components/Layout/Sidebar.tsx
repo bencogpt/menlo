@@ -7,6 +7,7 @@ import {
   Star,
   Inbox,
   Tag,
+  FileDown,
 } from 'lucide-react';
 import { classNames } from '../../utils/helpers';
 
@@ -20,6 +21,7 @@ const navigation = [
   { id: 'receipts', name: 'All Receipts', icon: Receipt },
   { id: 'starred', name: 'Starred', icon: Star },
   { id: 'analytics', name: 'Analytics', icon: PieChart },
+  { id: 'pitch-downloader', name: 'Pitch Downloader', icon: FileDown },
 ];
 
 const categories = [
